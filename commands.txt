@@ -1,0 +1,19 @@
+Creating contract cx-crowdfunding -->
+
+npx thirdweb@latest create --contract
+
+√ What is your project named? ... cx-crowdfund
+√ What framework do you want to use? » Hardhat
+√ What will be the name of your new smart contract? ... Crowdfunding
+√ What type of contract do you want to start from? » Empty Contract
+
+npm install dotenv
+npm run deploy
+deploy: npx thirdweb@latest deploy
+
+React application -->
+
+npx thirdweb create --app
+npm install react-router-dom
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
